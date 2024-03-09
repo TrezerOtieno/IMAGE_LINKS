@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+
+            
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            text-align: center;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            justify-items: center;
+        }
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .menu-list li {
+            margin-bottom: 20px;
+        }
+        .menu-list img {
+            vertical-align: middle;
+            margin-right: 10px;
+            width: 100px; /* Adjust as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Website!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="image_links.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="menu.html">Menu</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="technology">Explore Our Latest Technology-Related Image</h2>
+    <div class="grid">
+        <a href="https://example.com/technology" target="_blank">
+            <img src="tech.jpg" alt="Technology Image" width="600" height="300">
+        </a>
+    </div>
+</body>
+</html>

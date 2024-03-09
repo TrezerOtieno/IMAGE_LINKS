@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        nav ul {
+            text-align: center;
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            justify-items: center;
+        }
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu-list li {
+            margin-bottom: 20px;
+        }
+        .menu-list img {
+            width: 100%; /* Ensure images fill their container */
+            max-width: 200px; /* Limit maximum width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Add rounded corners for a more appealing look */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+            transition: transform 0.3s ease; /* Add smooth transition on hover */
+        }
+        .menu-list img:hover {
+            transform: scale(1.1); /* Scale up the image on hover */
+        }
+        .description {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="image_links.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <h1>Gallery</h1>
+
+    <div class="grid">
+        <div class="menu-list">
+            <a href="https://www.pexels.com/photo/red-trees-1547813/" target="_blank">
+                <img src="nature.jpg" alt="Nature Image 1">
+            </a>
+            <p>Red Trees - A beautiful landscape of red trees in autumn.</p>
+        </div>
+        <div class="menu-list">
+            <a href="https://www.pexels.com/photo/brown-wooden-house-on-edge-of-cliff-1028225/" target="_blank">
+                <img src="nature1.jpeg" alt="Nature Image 2">
+            </a>
+            <p>Wooden House on Cliff - A cozy wooden house perched on the edge of a cliff overlooking the sea.</p>
+        </div>
+        <div class="menu-list">
+            <a href="https://www.pexels.com/photo/first-perspective-photography-of-hanging-bridge-1761279/" target="_blank">
+                <img src="nature2.jpg" alt="Nature Image 3">
+            </a>
+            <p>Hanging Bridge - A stunning view of a hanging bridge from a unique perspective.</p>
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+</body>
+</html>

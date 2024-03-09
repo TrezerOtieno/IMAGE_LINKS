@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        /* Apply styles to the menu */
+        .menu-list {
+            list-style-type: none; /* Remove default list styles */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Use flexbox for horizontal alignment */
+            justify-content: center; /* Center align items */
+        }
+
+        .menu-list li {
+            margin-right: 20px; /* Add some spacing between menu items */
+        }
+
+        /* Style links */
+        .menu-list li a {
+            text-decoration: none; /* Remove underline from links */
+            display: block; /* Make the whole area clickable */
+        }
+
+        /* Style images */
+        .menu-list li img {
+            width: 200px; /* Set fixed width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Add rounded corners for a more appealing look */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+            transition: transform 0.3s ease; /* Add smooth transition on hover */
+        }
+
+        /* Hover effect on images */
+        .menu-list li img:hover {
+            transform: scale(1.1); /* Scale up the image on hover */
+        }
+
+        /* Style for description */
+        .description {
+            text-align: center; /* Center align text */
+            margin-top: 20px; /* Add some space at the top */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="image_links.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="menu.html">Menu</a></li>
+        </ul>
+    </nav>
+
+<h1>Menu</h1>
+
+<ul class="menu-list">
+    <li>
+        <a href="https://www.pexels.com/photo/pancake-with-sliced-strawberry-376464/" target="_blank">
+            <img src="food.jpg" alt="Pancakes">
+        </a>
+        <p>Pancakes - Fluffy pancakes served with maple syrup and fresh berries.</p>
+    </li>
+    <li>
+        <a href="https://www.pexels.com/photo/fries-and-burger-on-plate-70497/" target="_blank">
+            <img src="food3.jpg" alt="Hamburger">
+        </a>
+        <p>Hamburger - Juicy beef patty topped with cheese, lettuce, tomato, and special sauce.</p>
+    </li>
+    <li>
+        <a href="https://www.pexels.com/photo/fries-with-leaves-dish-718742/" target="_blank">
+            <img src="food2.jpg" alt="Pizza">
+        </a>
+        <p>Pizza - Delicious pizza topped with mozzarella cheese, pepperoni, mushrooms, and bell peppers.</p>
+    </li>
+</ul>
+
+
+
+</body>
+</html>
